@@ -1,0 +1,10 @@
+Put your trained model file here, named exactly:
+
+    best_lung_cancer_model.keras
+
+Train one with ../../ml/train.py, or with your own script — as long as it's a
+Keras model trained on 150x150 RGB images with a single sigmoid output
+(0 = normal, 1 = cancer), it will drop in and work.
+
+Until a model is here, the app runs in DEMO MODE and returns mock
+(randomized) predictions so you can test the full app end-to-end.
