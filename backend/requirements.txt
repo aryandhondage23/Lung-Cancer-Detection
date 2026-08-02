@@ -1,0 +1,11 @@
+fastapi==0.110.1
+uvicorn==0.25.0
+python-multipart==0.0.20
+python-dotenv==1.2.1
+pydantic==2.12.4
+SQLAlchemy==2.0.44
+
+# Optional — only needed for REAL predictions (mock predictions work without these)
+tensorflow==2.20.0
+pillow==12.0.0
+numpy==2.3.4
